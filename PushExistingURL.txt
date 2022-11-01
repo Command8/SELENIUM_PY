@@ -1,0 +1,49 @@
+ -u TO CHECK THAT THERE IS NO EXISTING GIT REPOSITORY INSIDE OUR PROJECT OR IN A HIGHER LEVEL FOLDER
+git status - returns a message with the git status of your project
+
+THERE SHOULD ONLY BE 1 .gigit t file in your project.  
+IF NO EXISTING GIT REPOSITORY GO TO THE NEXT STEP
+
+git init - creates a repository inside the current folder directorygit 
+
+branch
+
+
+SETUPS UP A REMOTE ORIGIN TO PUSH CODE TO A REPOSITORY -D
+git remote add origin https://<cures URL>
+
+PUSHES CODE TO THE REMOTE REPOSITORY
+git push -u origin --all
+
+
+
+TO - DELETE BRANCHES
+
+git branch -d <BranchName> - deletes a branch
+
+git branch -a - returns a list of all branches
+
+git log - returns a list of all commit activity
+
+
+
+TO SEE ALL BRANCHES 
+
+git branch -a - returns a list of all the branches both local and remote
+
+TO CREATE A BRANCH BASED ON ANOTHER BRANCH
+git branch <ChildBranchName> <ParentBranchName>
+
+-git status -- will show that the CHILD BRANCH was created under the PARENT BRANCH
+
+git pull origin QA-Development fhir-unittest-
+
+THE SWITCH BRANCH
+GIT COMMIT BEFORE USING CHECKOUT 
+git checkout <branchname>
+
+
+
+
+
+

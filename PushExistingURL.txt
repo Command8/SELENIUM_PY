@@ -10,7 +10,7 @@ branch
 
 
 SETUPS UP A REMOTE ORIGIN TO PUSH CODE TO A REPOSITORY -D
-git remote add origin https://<cures URL>
+git remote add origin https://<repo URL>
 
 PUSHES CODE TO THE REMOTE REPOSITORY
 git push -u origin --all
